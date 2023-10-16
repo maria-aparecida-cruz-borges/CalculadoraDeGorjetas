@@ -1,0 +1,66 @@
+body {
+    background-color: lightcoral;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#container{
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 25px;
+}
+#serviceQual{
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+#totalTip{
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.title{
+    background: grey;
+    color: black;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+}
+
+.tipsForm {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput {
+    background: white;
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+    }
+
+    .formInput:focus {
+        border: 3px solid red;
+    }
+
+    .formSubmit{
+        text-transform: uppercase;
+        font-weight: bolder;
+        display: block;
+        margin: 38px auto;
+        background: red;
+        border-radius: 5px;
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+        color: white;
+    }
+
